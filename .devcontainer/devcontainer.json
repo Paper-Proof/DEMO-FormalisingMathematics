@@ -9,7 +9,10 @@
 
   "customizations": {
     "vscode" : {
-      "extensions" : ["leanprover.lean4@0.0.176", "paperproof.paperproof"]
+      "extensions" : ["leanprover.lean4@0.0.176", "paperproof.paperproof"],
+      "settings": {
+        "editor.wordWrap": "on"
+      }
     },
     "codespaces": {
       "openFiles": ["FormalisingMathematics2024/Section01logic/Sheet1.lean"]
